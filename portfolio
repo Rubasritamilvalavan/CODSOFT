@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Portfolio</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f6f6;
+        }
+
+        header {
+            background-color: slateblue;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 30px 20px;
+            background-color: lavenderblush;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            color: black;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        #about img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #skills li {
+            display: inline-block;
+            background-color: gray;
+            color: #fff;
+            padding: 5px 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: black;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Rubasri.T</h1>
+        <p>Web Developer | Designer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="pro.jpeg" alt="Your Name">
+        <p> I'm Rubasri.T, a creative web developer with 2 years of professional experience. Proficient in HTML, CSS, JavaScript, Java, C++ and Python. Experienced in developing web applications and websites, including mini projects like weather forecast application and tourism website. Seeking to leverage skills and experience to contribute to innovative web development projects.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <img src="skillicons.jpg" alt="">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+            <li>Graphic Design</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <img src="project.jpg" alt="">
+        <div class="project">
+            <h3>Project 1: Tourism Website</h3>
+            <p>I have designed a Tourism website which was built using HTML, CSS, and JavaScript. It showcases my skills, projects, and contact information.</p>
+            <img src="ng.png" alt="Project 1">
+        </div>
+        <div class="project">
+            <h3>Project 2: Weather Forecast application</h3>
+            <p>A weather forecasting web app, which meticulously crafted with HTML, CSS, and JavaScript, providing real-time weather data and intuitive user interaction for seamless weather tracking.</p>
+            <img src="weather forcast.png" alt="Project 2">
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" target="_blank">
+        <img src="re.png" alt=""> 
+        <p>Download Resume</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact ">
+        <h2>Contact</h2>
+        <img src="phone.jpg" alt="">
+        <p>Email: rubasritamilvalavan@gmail.com</p>
+        <p>Phone: 9941470466</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
