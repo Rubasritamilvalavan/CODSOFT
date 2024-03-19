@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traveling Landing Page</title>
+  <style>
+    /* Reset default browser styles */
+    body, h1, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightcyan;
+      color:darkblue;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #45b29d;
+      color: #fff;
+      text-align: center;
+      padding: 50px 0;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+
+    /* Navigation styles */
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f8f8f8;
+    }
+
+    /* Main content styles */
+    .main-content {
+      text-align: center;
+      padding: 50px;
+    }
+
+    .main-content h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #45b29d;
+    }
+
+    .main-content p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    /* Destination section styles */
+    .destination {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 50px;
+    }
+
+    .destination-card {
+      flex: 0 0 calc(33.33% - 20px);
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .destination-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .destination-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .destination-card h3 {
+      margin-bottom: 10px;
+      color: #45b29d;
+    }
+
+    .destination-card p {
+      font-size: 1em;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #45b29d;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Explore the World</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="https://via.placeholder.com/1200x400" alt="Travel Image">
+  </header>
+
+  <div class="main-content">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Welcome to our traveling paradise! We are passionate about exploring the world and sharing our experiences with you.</p>
+    </section>
+
+    <section id="destinations">
+      <h2>Popular Destinations</h2>
+      <div class="destination">
+        <div class="destination-card">
+          <img src="eiffel tower.jpg" alt="Destination 1">
+          <h3>Paris,France</h3>
+          <p style="text-align: justify;"> It is Constructed for the 1889 Exposition Universelle (World's Fair) to celebrate the 100th anniversary of the French Revolution, it was initially met with mixed reactions but soon became an enduring symbol of engineering prowess and architectural beauty</p>
+        </div>
+        <div class="destination-card">
+          <img src="taj.jpg" alt="Destination 2">
+          <h3>Taj Mahal,India</h3>
+          <p style="text-align: justify;">It is renowned for its stunning symmetrical design, intricate marble carvings, and exquisite craftsmanship. Its central dome, flanked by four minarets, stands as the centerpiece of the complex.</p>
+        </div>
+        <div class="destination-card">
+          <img src="machu.jpg" alt="Destination 3">
+          <h3>Machu Picchu, Peru</h3>
+          <p style="text-align: justify;"> An ancient Incan citadel set high in the Andes Mountains, known for its breathtaking scenery and mysterious ruins.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: rubasritamilvalavan@gmail.com</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Explore the World. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
